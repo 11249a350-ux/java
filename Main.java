@@ -1,3 +1,30 @@
+/*A350
+AIM:To write a Java program to demonstrate different types of
+inheritance such as Single Inheritance, Multilevel Inheritance,
+Hierarchical Inheritance, Multiple Inheritance and
+Hybrid Inheritance.
+ALGORITHM:
+1. Start the program.
+2. Create an Animal class with an eat() method.
+3. Create a Dog class that inherits from Animal and
+   define the bark() method.
+4. Create a Puppy class that inherits from Dog and
+   define the play() method.
+5. Create a Cat class that inherits from Animal and
+   define the meow() method.
+6. Create Father and Mother interfaces with their methods.
+7. Create a Child class that implements both Father and
+   Mother interfaces.
+8. Create a Sports interface with the playSports() method.
+9. Create a Student class with the study() method.
+10. Create a CollegeStudent class that inherits from Student
+    and implements the Sports interface.
+11. Create objects for the different classes.
+12. Call the methods to demonstrate the different types
+    of inheritance.
+13. Display the results.
+14. Stop the program.
+PROGRAM:*/
 class Animal {
     void eat() {
         System.out.println("Animal eats");
@@ -70,3 +97,24 @@ public class Main {
         cs.playSports();
     }
 }
+/*OUTPUT:
+Single Inheritance:
+Animal eats
+Dog barks
+Multilevel Inheritance:
+Animal eats
+Dog barks
+Puppy plays
+Hierarchical Inheritance:
+Animal eats
+Cat meows
+Multiple Inheritance:
+Child gets property from Father
+Child gets property from Mother
+Hybrid Inheritance:
+Student studies
+College student plays sports
+RESULT:
+Thus, the Java program to demonstrate Single, Multilevel,
+Hierarchical, Multiple and Hybrid Inheritance was
+successfully executed.*/
