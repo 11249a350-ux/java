@@ -1,3 +1,16 @@
+/*A350
+AIM:To write a Java program to check whether a given number
+is even or odd using switch statement.
+ALGORITHM:
+1. Start the program.
+2. Get a number from the user.
+3. Find the remainder by dividing the number by 2.
+4. Use the switch statement with the remainder.
+5. If the remainder is 0, display "This number is even".
+6. If the remainder is 1, display "This number is odd".
+7. Display the result.
+8. Stop the program.
+PROGRAM*/
 import java.util.Scanner;
 
 class EvenOddSwitch {
@@ -24,3 +37,8 @@ class EvenOddSwitch {
         }
     }
 }
+/*OUTPUT:
+Enter a number: 10
+This number is even
+RESULT:Thus, the Java program to check whether the given number
+is even or odd using switch statement was successfully executed.*/
