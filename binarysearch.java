@@ -69,7 +69,8 @@ class BinarySearch
 /*OUTPUT: 
 Enter number of elements: 5 
 Enter elements in sorted order: 10 20 30 40 50 
-Enter element to search: 30 Element found at position 3
+Enter element to search: 30 
+Element found at position 3
 
 RESULT: Thus, the element was searched successfully in a sorted array using the binary search technique. */
 
