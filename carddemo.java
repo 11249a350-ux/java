@@ -42,8 +42,22 @@ public void actionPerformed(ActionEvent e)
 buttonCardLayout.next(buttonPanel);
 }
 }
-/*OUTPUT: First Button is displayed initially.
-         On clicking, Second Button is displayed.
-         On clicking again, Third Button is displayed.
-        The cycle repeats from First Button. 
+/*OUTPUT: nitially displayed:
++----------------------+
+|                      |
+|     first Button     |
+|                      |
++----------------------+
+After clicking the first button:
++----------------------+
+|                      |
+|    second Button     |
+|                      |
++----------------------+
+After clicking the second button:
++----------------------+
+|                      |
+|     third button     |
+|                      |
++----------------------+
 RESULT: Thus, the Java Applet using CardLayout was successfully executed. */
